@@ -1,0 +1,36 @@
+baseURL = 'http://lincolntreesurveys.com/'
+title = 'Lincoln Tree Surveys'
+languageCode = "en-GB"
+theme = "ananke"
+resourceDir = "../resources"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+googleAnalytics = ""
+enableRobotsTXT = true
+
+[languages]
+  [languages.en]
+    title = "Lincoln Tree Surveys"
+    weight = 1
+    contentDir = "content/en"
+
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  text_color = "black"
+  author = ""
+  favicon = ""
+  site_logo = "images/logo-color.png"
+  description = "Residential and Domestic Tree Surveys, covering Lincolnshire and west Nottinghamshire. "
+  # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-dark-green"
+  recent_posts_number = 2
+  custom_css=["custom.css"]
+
+[[params.ananke_socials]]
+name = "facebook"
+url = "https://www.facebook.com/profile.php?id=100095196547595"

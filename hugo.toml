@@ -9,6 +9,11 @@ SectionPagesMenu = "main"
 googleAnalytics = ""
 enableRobotsTXT = true
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [languages]
   [languages.en]
     title = "Lincoln Tree Surveys"

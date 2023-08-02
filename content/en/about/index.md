@@ -5,6 +5,7 @@ featured_image: '/images/about-background.jpg'
 menu:
   main:
     weight: 1
+draft: true
 ---
 {{< figure src="/images/about-background.jpg" title="Illustration from Victor Hugo et son temps (1881)" >}}
 
